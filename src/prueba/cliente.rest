@@ -1,0 +1,23 @@
+###
+
+POST http://127.0.0.1:5000/estudiantes
+Accept: application/json
+Content-Type: application/json
+
+{
+    "apellido_e": "aaaaa",
+    "direccion_e": "chayanta",
+    "identificador_e": 3,
+    "nombre_e": "rafael"
+  }
+
+###
+PUT http://127.0.0.1:5000/estudiantes/:1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "apellido_e": "aaaaa",
+    "direccion_e": "chayanta",
+    "nombre_e": "rafael"
+  }
